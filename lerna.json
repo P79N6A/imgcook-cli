@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/@imgcook/*"
+  ],
+  "version": "0.0.1-alpha.4",
+  "command": {
+    "publish": {
+      "npmClient": "tnpm",
+      "verifyAccess": false
+    },
+    "bootstrap": {
+      "npmClient": "tnpm"
+    }
+  }
+}

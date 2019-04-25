@@ -1,0 +1,34 @@
+{
+  "name": "@imgcook/cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "imgcook": "bin/imgcook.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@imgcook/cli-loader-images": "^0.0.1",
+    "@imgcook/cli-plugin-generate": "^0.0.1",
+    "@imgcook/cli-utils": "^0.0.1",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2",
+    "minimist": "^1.2.0",
+    "ora": "^3.4.0",
+    "request": "^2.88.0",
+    "semver": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "gitHead": "be8a1d06ea629b922ee99c224b4337eafcb9ac98"
+}

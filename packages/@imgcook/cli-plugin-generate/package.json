@@ -1,0 +1,19 @@
+{
+  "name": "@imgcook/cli-plugin-generate",
+  "version": "0.0.1",
+  "description": "imgcook plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "gitHead": "be8a1d06ea629b922ee99c224b4337eafcb9ac98"
+}
